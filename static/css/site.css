@@ -1,0 +1,290 @@
+.site-home,
+.profile-page {
+  width: 100%;
+  max-width: 920px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.home-hero {
+  padding: 52px 0 26px;
+}
+
+.home-kicker {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.home-lead,
+.profile-header p {
+  max-width: 760px;
+  font-size: 1.14rem;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.profile-links a {
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  padding: 8px 13px;
+  text-decoration: none;
+}
+
+.home-entry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.home-entry-card {
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  position: relative;
+  text-decoration: none;
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+
+.home-entry-card::after {
+  content: "->";
+  font-weight: 700;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+
+.home-entry-card:hover,
+.home-entry-card:focus {
+  transform: translateY(-2px);
+}
+
+.home-entry-card:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.home-entry-card__label {
+  font-size: 0.85rem;
+  opacity: 0.68;
+  text-transform: uppercase;
+}
+
+.metric-strip,
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.metric-strip div,
+.project-grid article {
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.metric-strip div {
+  display: grid;
+  gap: 6px;
+}
+
+.metric-strip strong {
+  font-size: 1.15rem;
+}
+
+.metric-strip span,
+.project-grid span,
+.timeline-meta {
+  font-size: 0.85rem;
+  opacity: 0.68;
+}
+
+.home-latest {
+  margin-top: 34px;
+}
+
+.home-latest ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-latest li {
+  border-bottom: 1px dashed rgba(128, 128, 128, 0.5);
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.home-latest time {
+  flex-shrink: 0;
+  opacity: 0.65;
+}
+
+.profile-header {
+  margin-bottom: 28px;
+}
+
+.skill-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.skill-cloud span {
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 8px;
+  font-size: 0.88rem;
+  padding: 5px 9px;
+}
+
+.achievement-list {
+  padding-left: 1.2rem;
+}
+
+.achievement-list li {
+  margin: 0.45rem 0;
+}
+
+.tabs > input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tab-list {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  display: flex;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.tab-list label {
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  padding: 10px 14px;
+}
+
+#tab-cv:checked ~ .tab-list label[for="tab-cv"],
+#tab-projects:checked ~ .tab-list label[for="tab-projects"] {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom-color: transparent;
+}
+
+.tab-panel {
+  display: none;
+}
+
+#tab-cv:checked ~ .tab-panel--cv,
+#tab-projects:checked ~ .tab-panel--projects {
+  display: block;
+}
+
+.profile-section {
+  margin-top: 28px;
+}
+
+.timeline {
+  display: grid;
+  gap: 18px;
+}
+
+.timeline article {
+  border-left: 2px solid rgba(128, 128, 128, 0.35);
+  padding-left: 16px;
+}
+
+.timeline ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.timeline li {
+  margin: 0.35rem 0;
+}
+
+.timeline h3,
+.project-grid h2 {
+  margin-bottom: 4px;
+}
+
+.posts-list .post-item-inner {
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.post-main {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.post-meta,
+.post-labels {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-meta {
+  gap: 6px 10px;
+  line-height: 1.4;
+}
+
+.post-labels {
+  gap: 6px;
+}
+
+.post-label,
+.post-reading-time {
+  color: currentColor;
+  font-size: 0.75rem;
+  opacity: 0.68;
+}
+
+.post-label {
+  border: 1px solid rgba(128, 128, 128, 0.42);
+  border-radius: 999px;
+  padding: 1px 7px;
+}
+
+.post-reading-time {
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  .home-entry-grid,
+  .metric-strip,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-latest li {
+    display: grid;
+    gap: 4px;
+  }
+
+  .posts-list .post-item-inner {
+    display: grid;
+    gap: 8px;
+  }
+
+  .posts-list .post-day {
+    justify-self: start;
+  }
+}

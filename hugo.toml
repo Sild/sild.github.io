@@ -1,6 +1,6 @@
 baseURL = 'https://sild.github.io/'
 languageCode = 'en-us'
-title = "Sild's blog"
+title = "Dmitrii Korchagin"
 theme = 'hugo-theme-hello-friend-ng'
 pagination.pageSize = 10
 
@@ -10,7 +10,7 @@ pagination.pageSize = 10
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "Job and Education"
+  homeSubtitle = "Backend engineer focused on search systems, reliability, and blockchain infrastructure."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -22,9 +22,10 @@ pagination.pageSize = 10
   #enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
-  description = "Job and Education"
-  keywords = "blog,sild"
+  description = "Technical notes and CV for Dmitrii Korchagin."
+  keywords = "blog,sild,backend,dev,ops,crypto,search,leadership"
   images = [""]
+  customCSS = ["/css/site.css"]
 
 [taxonomies]
     category = "categories"
@@ -34,15 +35,20 @@ pagination.pageSize = 10
   [languages.en]
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params.logo]
-    logoText = "Hi"
+    logoText = "sild"
     logoHomeLink = "/"
 
 [[menu.main]]
-  identifier = "posts"
-  name       = "Posts"
-  url        = "/posts"
+  identifier = "01-me"
+  name       = "Me"
+  url        = "/me"
 
 [[menu.main]]
-  identifier = "tags"
+  identifier = "02-it"
+  name       = "IT"
+  url        = "/it"
+
+[[menu.main]]
+  identifier = "03-tags"
   name       = "Tags"
   url        = "/tags"

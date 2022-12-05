@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/sild/Projects/Personal/sild.github.io",
+	"sourceRoot": "/Users/sild/Projects/Personal/sild.github.io/.worktrees/codex-site-backfill",
 	"sources": [
 		"themes/hugo-theme-hello-friend-ng/assets/scss/main.scss",
 		"themes/hugo-theme-hello-friend-ng/assets/scss/_normalize.scss",
