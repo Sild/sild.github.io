@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 19:32:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jan 2023 20:30:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab SRE baseline: test the user workflow</title>
+      <link>https://sild.github.io/it/gitlab_sre_workflow_baseline/</link>
+      <pubDate>Thu, 19 Jan 2023 20:30:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/gitlab_sre_workflow_baseline/</guid>
+      <description>&lt;p&gt;A large internal GitLab installation should not be measured only by component&#xA;health. A green status page for Rails, Sidekiq, Redis, PostgreSQL, Gitaly, and&#xA;load balancers does not prove that engineers can clone a repository and push a&#xA;change from their normal workstation or CI environment.&lt;/p&gt;&#xA;&lt;p&gt;The baseline SRE check is the user workflow:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;authenticate -&amp;gt; clone -&amp;gt; change -&amp;gt; push -&amp;gt; fetch -&amp;gt; view result&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That path crosses more boundaries than a normal service liveness probe. It uses&#xA;DNS, TLS, SSH or HTTPS authentication, GitLab Shell, Rails authorization, Gitaly,&#xA;repository storage, and sometimes corporate network policy. A failure in any&#xA;one of those layers can look like &amp;ldquo;GitLab is down&amp;rdquo; to the user.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Minimal Hugo workflow for this site</title>
       <link>https://sild.github.io/it/how_to_build_it/</link>
