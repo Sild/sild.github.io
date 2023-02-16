@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Jan 2023 20:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 16 Feb 2023 20:10:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puppet rollouts need a rollback shape</title>
+      <link>https://sild.github.io/it/puppet_rollouts_need_rollback_shape/</link>
+      <pubDate>Thu, 16 Feb 2023 20:10:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/puppet_rollouts_need_rollback_shape/</guid>
+      <description>&lt;p&gt;Configuration management fails differently from application code. A bad service&#xA;release can often be rolled back by deploying the previous artifact. A bad&#xA;Puppet change can touch packages, files, permissions, services, cron jobs, and&#xA;feature flags across many machines in one run. The rollback plan has to be part&#xA;of the change, not an incident-time invention.&lt;/p&gt;&#xA;&lt;p&gt;The minimum review checklist:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scope: which node class or role changes?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;blast radius: how many hosts match?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;state transition: create, update, delete?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rollback: previous manifest or explicit revert?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;canary: which host proves the change?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;verification: which command proves user impact is unchanged?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The dangerous changes are not always large. Removing one file resource or&#xA;changing one template default can have wider impact than adding a new service.&#xA;The review should classify resources by reversibility:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitLab SRE baseline: test the user workflow</title>
       <link>https://sild.github.io/it/gitlab_sre_workflow_baseline/</link>
