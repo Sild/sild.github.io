@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 16 Mar 2023 20:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 20 Apr 2023 20:25:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab upgrades start with background migrations</title>
+      <link>https://sild.github.io/it/gitlab_background_migrations_before_upgrades/</link>
+      <pubDate>Thu, 20 Apr 2023 20:25:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/gitlab_background_migrations_before_upgrades/</guid>
+      <description>&lt;p&gt;GitLab upgrades are not only package upgrades. A release can include database&#xA;schema changes, batched background migrations, Gitaly compatibility constraints,&#xA;and application-level behavior changes. The safe starting point is to verify&#xA;that asynchronous work from the previous version has finished before the next&#xA;upgrade begins.&lt;/p&gt;&#xA;&lt;p&gt;The failure mode is predictable: package deployment succeeds, services restart,&#xA;and then the application spends operational time catching up on old background&#xA;work. That can degrade user workflows long after the deployment window appears&#xA;finished.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitLab architecture as SRE failure domains</title>
       <link>https://sild.github.io/it/gitlab_architecture_failure_domains/</link>
