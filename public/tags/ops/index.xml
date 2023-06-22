@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 20 Apr 2023 20:25:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2023 19:50:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User-side GitLab health checks from SRE work</title>
+      <link>https://sild.github.io/it/user_side_gitlab_health_checks/</link>
+      <pubDate>Thu, 22 Jun 2023 19:50:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/user_side_gitlab_health_checks/</guid>
+      <description>&lt;p&gt;Internal health checks often answer the wrong question. A service can report&#xA;that all components are green while users still cannot finish the workflow they&#xA;care about. For Git hosting, the workflow is not &amp;ldquo;is the web process alive?&amp;rdquo; It&#xA;is closer to &amp;ldquo;can users clone, push, fetch, and authenticate from the environments&#xA;where people actually work?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;User-side checks answer that workflow question directly. They are small probes&#xA;that behave like a normal user:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitLab upgrades start with background migrations</title>
       <link>https://sild.github.io/it/gitlab_background_migrations_before_upgrades/</link>

@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sild.github.io/</loc>
-    <lastmod>2023-04-20T20:25:00+02:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/it/gitlab_background_migrations_before_upgrades/</loc>
-    <lastmod>2023-04-20T20:25:00+02:00</lastmod>
+    <lastmod>2023-06-22T19:50:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/it/</loc>
-    <lastmod>2023-04-20T20:25:00+02:00</lastmod>
+    <lastmod>2023-06-22T19:50:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/tags/ops/</loc>
-    <lastmod>2023-04-20T20:25:00+02:00</lastmod>
+    <lastmod>2023-06-22T19:50:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/tags/</loc>
+    <lastmod>2023-06-22T19:50:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/user_side_gitlab_health_checks/</loc>
+    <lastmod>2023-06-22T19:50:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/gitlab_background_migrations_before_upgrades/</loc>
     <lastmod>2023-04-20T20:25:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/it/gitlab_architecture_failure_domains/</loc>
