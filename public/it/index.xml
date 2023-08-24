@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 22 Jun 2023 19:50:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Aug 2023 19:45:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keeping GitLab test environments useful</title>
+      <link>https://sild.github.io/it/test_environments_that_stay_useful/</link>
+      <pubDate>Thu, 24 Aug 2023 19:45:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/test_environments_that_stay_useful/</guid>
+      <description>&lt;p&gt;A test environment is useful only while people trust it. Once it drifts too far&#xA;from production or becomes hard to reset, engineers stop using it for serious&#xA;changes and fall back to local assumptions.&lt;/p&gt;&#xA;&lt;p&gt;For internal GitLab work, the useful test environment is not a perfect clone of&#xA;production. It is a controlled place where common operational changes can be&#xA;repeated:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;deploy a known version;&lt;/li&gt;&#xA;&lt;li&gt;seed enough data to exercise real workflows;&lt;/li&gt;&#xA;&lt;li&gt;run clone, push, and migration checks;&lt;/li&gt;&#xA;&lt;li&gt;reset state without asking another team;&lt;/li&gt;&#xA;&lt;li&gt;keep configuration differences visible.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The reset path is the most important part. If every experiment leaves the&#xA;environment slightly different, the next experiment starts with unknown state.&#xA;That makes failures harder to interpret and slowly turns the environment into a&#xA;pet server.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>User-side GitLab health checks from SRE work</title>
       <link>https://sild.github.io/it/user_side_gitlab_health_checks/</link>
