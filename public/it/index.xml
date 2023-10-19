@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 24 Aug 2023 19:45:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Oct 2023 21:20:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On-call alerts that explain the action</title>
+      <link>https://sild.github.io/it/actionable_oncall_alerts/</link>
+      <pubDate>Thu, 19 Oct 2023 21:20:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/actionable_oncall_alerts/</guid>
+      <description>&lt;p&gt;An alert is not a dashboard link with a loud sound. It is a request for someone&#xA;to stop what they are doing and make a decision. If the alert does not explain&#xA;the decision, it is incomplete.&lt;/p&gt;&#xA;&lt;p&gt;Useful production alerts contain four pieces of information:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;what changed;&lt;/li&gt;&#xA;&lt;li&gt;why it matters;&lt;/li&gt;&#xA;&lt;li&gt;how urgent it is;&lt;/li&gt;&#xA;&lt;li&gt;where to start.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For example, &amp;ldquo;error rate is above threshold&amp;rdquo; is technically true but weak. &amp;ldquo;API&#xA;write errors are above threshold for 10 minutes; successful writes are dropping;&#xA;check database saturation first&amp;rdquo; is a better page. It tells the person whether&#xA;the alert is user-visible and gives an initial hypothesis.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Keeping GitLab test environments useful</title>
       <link>https://sild.github.io/it/test_environments_that_stay_useful/</link>
