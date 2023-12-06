@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on </title>
+        <link>https://sild.github.io/posts/</link>
+        <description>Recent content in Posts on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 06 Dec 2023 19:32:50 +0100</lastBuildDate>
+        <atom:link href="https://sild.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>How to build such blog</title>
+            <link>https://sild.github.io/posts/how_to_build_it/</link>
+            <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
+            
+            <guid>https://sild.github.io/posts/how_to_build_it/</guid>
+            <description>Here is a short guide on how you can build a page like this yourself.</description>
+            <content type="html"><![CDATA[<p><a href="https://habr.com/en/articles/778900/">Here</a> is a short guide on how you can build a page like this yourself.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
