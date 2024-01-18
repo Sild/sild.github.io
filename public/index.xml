@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 21:20:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 20:15:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab project migrations need reversible batches</title>
+      <link>https://sild.github.io/it/gitlab_project_migrations_need_reversible_batches/</link>
+      <pubDate>Thu, 18 Jan 2024 20:15:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/gitlab_project_migrations_need_reversible_batches/</guid>
+      <description>&lt;p&gt;Project migration work around GitLab is easy to underestimate because a single&#xA;project move looks small. The hard part is not moving one repository. The hard&#xA;part is repeating that operation across many projects without losing ownership,&#xA;permissions, hooks, CI variables, repository integrity, or user confidence.&lt;/p&gt;&#xA;&lt;p&gt;The migration unit should be a batch, not a one-off script invocation:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;batch id:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source group:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;target group:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;project count:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;expected repository sizes:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;owners notified:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;freeze window:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rollback action:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;verification probes:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The batch must have an inventory before it has automation:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>On-call alerts that explain the action</title>
       <link>https://sild.github.io/it/actionable_oncall_alerts/</link>
