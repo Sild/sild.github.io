@@ -14,7 +14,7 @@
       <link>https://sild.github.io/posts/how_to_build_it/</link>
       <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
       <guid>https://sild.github.io/posts/how_to_build_it/</guid>
-      <description>Here is a short guide on how you can build a page like this yourself.&#xA;Few useful snippets:&#xA;create new post: hugo new post/my_new_post.md &amp;amp;&amp;amp; vim /content/post/my_new_post.md</description>
+      <description>Here is a short guide on how you can build a page like this yourself using Hugo.&#xA;Few snippets for quick onboarding:&#xA;create new post: hugo new post/my_new_post.md&#xA;edit that post: vim /content/post/my_new_post.md&#xA;run local test server to check your changes: hugo server -D</description>
     </item>
   </channel>
 </rss>

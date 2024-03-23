@@ -15,12 +15,16 @@
             <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
             
             <guid>https://sild.github.io/posts/how_to_build_it/</guid>
-            <description>Here is a short guide on how you can build a page like this yourself.
-Few useful snippets:
-create new post: hugo new post/my_new_post.md &amp;amp;&amp;amp; vim /content/post/my_new_post.md</description>
-            <content type="html"><![CDATA[<p><a href="https://habr.com/en/articles/778900/">Here</a> is a short guide on how you can build a page like this yourself.</p>
-<p>Few useful snippets:</p>
-<p>create new post: <code>hugo new post/my_new_post.md &amp;&amp; vim /content/post/my_new_post.md</code></p>
+            <description>Here is a short guide on how you can build a page like this yourself using Hugo.
+Few snippets for quick onboarding:
+create new post: hugo new post/my_new_post.md
+edit that post: vim /content/post/my_new_post.md
+run local test server to check your changes: hugo server -D</description>
+            <content type="html"><![CDATA[<p><a href="https://habr.com/en/articles/778900/">Here</a> is a short guide on how you can build a page like this yourself using <a href="https://gohugo.io/">Hugo</a>.</p>
+<p>Few snippets for quick onboarding:</p>
+<p>create new post: <code>hugo new post/my_new_post.md</code></p>
+<p>edit that post: <code>vim /content/post/my_new_post.md</code></p>
+<p>run local test server to check your changes: <code>hugo server -D</code></p>
 ]]></content>
         </item>
         
