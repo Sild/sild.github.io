@@ -15,8 +15,12 @@
             <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
             
             <guid>https://sild.github.io/posts/how_to_build_it/</guid>
-            <description>Here is a short guide on how you can build a page like this yourself.</description>
+            <description>Here is a short guide on how you can build a page like this yourself.
+Few useful snippets:
+create new post: hugo new post/my_new_post.md &amp;amp;&amp;amp; vim /content/post/my_new_post.md</description>
             <content type="html"><![CDATA[<p><a href="https://habr.com/en/articles/778900/">Here</a> is a short guide on how you can build a page like this yourself.</p>
+<p>Few useful snippets:</p>
+<p>create new post: <code>hugo new post/my_new_post.md &amp;&amp; vim /content/post/my_new_post.md</code></p>
 ]]></content>
         </item>
         
