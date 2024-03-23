@@ -6,8 +6,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 06 Dec 2023 19:32:50 +0100</lastBuildDate>
+        <lastBuildDate>Sat, 23 Mar 2024 16:15:01 +0100</lastBuildDate>
         <atom:link href="https://sild.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Crypto introduction</title>
+            <link>https://sild.github.io/posts/crypto_introduction/</link>
+            <pubDate>Sat, 23 Mar 2024 16:15:01 +0100</pubDate>
+            
+            <guid>https://sild.github.io/posts/crypto_introduction/</guid>
+            <description>Such a thing happened and I started a new job in the crypto domain knowing nothing about it.
+Here are a few links which make me more aware of what&amp;rsquo;s happening:
+DEX - what is it and what are its advantages compared to centralized exchanges The Open Network Architecture - an overview of the TON network architecture and ideas How to build your own blockchain - a step-by-step guide for building a simple blockchain.</description>
+            <content type="html"><![CDATA[<p>Such a thing happened and I started a new job in the crypto domain knowing nothing about it.</p>
+<p>Here are a few links which make me more aware of what&rsquo;s happening:</p>
+<ul>
+<li><a href="https://www.coinbase.com/en-gb/learn/crypto-basics/what-is-a-dex">DEX</a> - what is it and what are its advantages compared to centralized exchanges</li>
+<li><a href="https://blog.ton.org/the-architecture-behind-the-open-network">The Open Network Architecture</a> - an overview of the TON network architecture and ideas</li>
+<li><a href="https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/">How to build your own blockchain</a> - a step-by-step guide for building a simple blockchain. Look into <a href="https://github.com/sild/educhain">my repo</a> to see what happened!</li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>How to build such blog</title>
