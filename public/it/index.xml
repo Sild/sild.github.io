@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 18 Jan 2024 20:15:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2024 16:15:01 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crypto introduction</title>
+      <link>https://sild.github.io/it/crypto_introduction/</link>
+      <pubDate>Sat, 23 Mar 2024 16:15:01 +0100</pubDate>
+      <guid>https://sild.github.io/it/crypto_introduction/</guid>
+      <description>&lt;p&gt;Crypto infrastructure onboarding works better as a practical reading path than&#xA;as a theory dump. The useful split is:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;exchange mechanics: what a &lt;a href=&#34;https://www.coinbase.com/en-gb/learn/crypto-basics/what-is-a-dex&#34;&gt;DEX&lt;/a&gt; changes compared with a centralized exchange;&lt;/li&gt;&#xA;&lt;li&gt;network shape: how &lt;a href=&#34;https://blog.ton.org/the-architecture-behind-the-open-network&#34;&gt;The Open Network architecture&lt;/a&gt; organizes the TON system;&lt;/li&gt;&#xA;&lt;li&gt;implementation exercise: building a toy chain from a guide such as &lt;a href=&#34;https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/&#34;&gt;Write your own blockchain&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The implementation exercise is not about production code. It is a quick way to&#xA;make the vocabulary concrete:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitLab project migrations need reversible batches</title>
       <link>https://sild.github.io/it/gitlab_project_migrations_need_reversible_batches/</link>
