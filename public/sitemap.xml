@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sild.github.io/tags/crypto/</loc>
-    <lastmod>2024-03-23T16:15:01+01:00</lastmod>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/</loc>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/ton_infrastructure_first_notes/</loc>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/</loc>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/tags/ops/</loc>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/tags/</loc>
+    <lastmod>2024-06-18T21:10:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/it/crypto_introduction/</loc>
     <lastmod>2024-03-23T16:15:01+01:00</lastmod>
   </url><url>
-    <loc>https://sild.github.io/</loc>
-    <lastmod>2024-03-23T16:15:01+01:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/it/</loc>
-    <lastmod>2024-03-23T16:15:01+01:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/tags/</loc>
-    <lastmod>2024-03-23T16:15:01+01:00</lastmod>
-  </url><url>
     <loc>https://sild.github.io/it/gitlab_project_migrations_need_reversible_batches/</loc>
-    <lastmod>2024-01-18T20:15:00+01:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/tags/ops/</loc>
     <lastmod>2024-01-18T20:15:00+01:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/it/actionable_oncall_alerts/</loc>

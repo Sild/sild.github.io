@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 16:15:01 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 21:10:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First notes from moving into TON infrastructure</title>
+      <link>https://sild.github.io/it/ton_infrastructure_first_notes/</link>
+      <pubDate>Tue, 18 Jun 2024 21:10:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/ton_infrastructure_first_notes/</guid>
+      <description>&lt;p&gt;TON infrastructure becomes easier to reason about when &amp;ldquo;blockchain&amp;rdquo; is not&#xA;treated as one large new domain. Most day-to-day work still looks like backend&#xA;engineering: read binary formats, move data through queues, keep services&#xA;observable, and make recovery repeatable.&lt;/p&gt;&#xA;&lt;p&gt;The unfamiliar part was the shape of the data. A regular backend service can&#xA;often define its own schema and evolve it through migrations. A chain indexer&#xA;has to follow data that already exists, including historical decisions and edge&#xA;cases. If parsing is vague, every downstream component becomes vague too.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Crypto introduction</title>
       <link>https://sild.github.io/it/crypto_introduction/</link>
