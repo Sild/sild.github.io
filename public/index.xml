@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 18 Jun 2024 21:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 20:50:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Treating parser errors as product data</title>
+      <link>https://sild.github.io/it/parser_errors_as_product/</link>
+      <pubDate>Wed, 24 Jul 2024 20:50:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/parser_errors_as_product/</guid>
+      <description>&lt;p&gt;When an indexer cannot parse something, it is tempting to treat the error as a&#xA;local bug and move on after the fix. That loses useful information. Parser&#xA;errors are also product data: they tell which external structures the system&#xA;does not understand yet, how often that happens, and whether the failure affects&#xA;real downstream workflows.&lt;/p&gt;&#xA;&lt;p&gt;Parser failures should stay structured:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;source position or block height;&lt;/li&gt;&#xA;&lt;li&gt;object type if it is known;&lt;/li&gt;&#xA;&lt;li&gt;short error class;&lt;/li&gt;&#xA;&lt;li&gt;raw input reference;&lt;/li&gt;&#xA;&lt;li&gt;whether processing stopped or continued.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This keeps the error useful after the immediate debugging session. A plain log&#xA;line says &amp;ldquo;something failed&amp;rdquo;. A structured parser error can answer whether the&#xA;same shape appeared before, whether a deploy changed failure rate, and whether&#xA;the skipped objects are safe to ignore temporarily.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First notes from moving into TON infrastructure</title>
       <link>https://sild.github.io/it/ton_infrastructure_first_notes/</link>
