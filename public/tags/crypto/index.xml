@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 24 Jul 2024 20:50:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 20:40:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust wrappers around blockchain data structures</title>
+      <link>https://sild.github.io/it/rust_wrappers_for_blockchain_data/</link>
+      <pubDate>Tue, 20 Aug 2024 20:40:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/rust_wrappers_for_blockchain_data/</guid>
+      <description>&lt;p&gt;Rust makes illegal states visible at type boundaries. That matters when the&#xA;input data comes from a blockchain, because the difference between &amp;ldquo;bytes&amp;rdquo;,&#xA;&amp;ldquo;parsed cell&amp;rdquo;, &amp;ldquo;validated object&amp;rdquo;, and &amp;ldquo;domain object used by the service&amp;rdquo; is&#xA;not cosmetic.&lt;/p&gt;&#xA;&lt;p&gt;Wrappers around binary data should stay thin. A wrapper should not hide the cost&#xA;of parsing, clone large payloads silently, or pretend that a partially understood&#xA;object is complete. Its main job is to give names to states that already exist&#xA;in the system.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Treating parser errors as product data</title>
       <link>https://sild.github.io/it/parser_errors_as_product/</link>
