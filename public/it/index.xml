@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 20:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 21:30:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schema boundaries when the source is external</title>
+      <link>https://sild.github.io/it/external_schema_boundaries/</link>
+      <pubDate>Wed, 18 Sep 2024 21:30:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/external_schema_boundaries/</guid>
+      <description>&lt;p&gt;Internal schemas can be negotiated. External schemas have to be respected. This&#xA;is a practical difference when building infrastructure around blockchain data,&#xA;third-party APIs, or generated protocol objects.&lt;/p&gt;&#xA;&lt;p&gt;The important boundary is between &amp;ldquo;source format&amp;rdquo; and &amp;ldquo;service format&amp;rdquo;. Source&#xA;format code should preserve what the external system actually said. Service&#xA;format code should expose the subset and invariants that the application needs.&#xA;Mixing those two makes every caller responsible for remembering which fields are&#xA;trusted and which fields are still raw.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rust wrappers around blockchain data structures</title>
       <link>https://sild.github.io/it/rust_wrappers_for_blockchain_data/</link>
