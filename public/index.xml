@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 18 Sep 2024 21:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2024 19:35:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making CMake CI faster and less mysterious</title>
+      <link>https://sild.github.io/it/cmake_ci_flags/</link>
+      <pubDate>Thu, 17 Oct 2024 19:35:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/cmake_ci_flags/</guid>
+      <description>&lt;p&gt;CI time is easy to accept as background noise. A build takes ten minutes, people&#xA;open another tab, and eventually everybody forgets that the delay is a tax on&#xA;every small change. The useful question is not &amp;ldquo;can we make CI fast?&amp;rdquo; but &amp;ldquo;which&#xA;part of this delay is accidental?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;With CMake projects, accidental cost often hides in flags and defaults:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;building targets that are not needed for the check;&lt;/li&gt;&#xA;&lt;li&gt;compiling examples or tests in jobs that only need a library;&lt;/li&gt;&#xA;&lt;li&gt;missing cache keys for dependencies;&lt;/li&gt;&#xA;&lt;li&gt;doing clean builds where incremental state would be safe;&lt;/li&gt;&#xA;&lt;li&gt;using one generic pipeline for very different validation tasks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The first fix is measurement. Split the job into visible phases before changing&#xA;anything: configure, dependency restore, compile, test, package, upload. Once&#xA;each phase has timing, the slow part becomes a concrete target instead of a&#xA;general complaint.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Schema boundaries when the source is external</title>
       <link>https://sild.github.io/it/external_schema_boundaries/</link>
