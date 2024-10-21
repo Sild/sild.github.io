@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource on Sild&#39;s blog</title>
+    <link>http://localhost:1313/tags/resource/</link>
+    <description>Recent content in Resource on Sild&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 06 Dec 2023 19:32:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/resource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to build such blog</title>
+      <link>http://localhost:1313/posts/how_to_build_it/</link>
+      <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/how_to_build_it/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://habr.com/en/articles/778900/&#34;&gt;Here&lt;/a&gt; is a short guide on how you can build a page like this yourself using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Few snippets for quick onboarding:&lt;/p&gt;&#xA;&lt;p&gt;create new post: &lt;code&gt;hugo new post/my_new_post.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;edit that post: &lt;code&gt;vim /content/post/my_new_post.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;run local test server to check your changes: &lt;code&gt;hugo server -D&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
