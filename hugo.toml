@@ -39,10 +39,10 @@ pagination.pageSize = 10
 
 [[menu.main]]
   identifier = "posts"
-  name       = "Posts"
+  name       = "All Posts"
   url        = "/posts"
 
 [[menu.main]]
   identifier = "tags"
-  name       = "Tags"
+  name       = "All Tags"
   url        = "/tags"
