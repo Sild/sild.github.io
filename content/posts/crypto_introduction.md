@@ -1,7 +1,6 @@
 +++
 title = 'Crypto introduction'
 date = 2024-03-23T16:15:01+01:00
-draft = true
 tags = ['crypto']
 +++
 

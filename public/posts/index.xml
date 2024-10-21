@@ -10,6 +10,29 @@
         <atom:link href="https://sild.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Crypto introduction</title>
+            <link>https://sild.github.io/posts/crypto_introduction/</link>
+            <pubDate>Sat, 23 Mar 2024 16:15:01 +0100</pubDate>
+            
+            <guid>https://sild.github.io/posts/crypto_introduction/</guid>
+            <description>&lt;p&gt;Such a thing happened and I started a new job in the crypto domain knowing nothing about it.&lt;/p&gt;
+&lt;p&gt;Here are a few links which make me more aware of what&amp;rsquo;s happening:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coinbase.com/en-gb/learn/crypto-basics/what-is-a-dex&#34;&gt;DEX&lt;/a&gt; - what is it and what are its advantages compared to centralized exchanges&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ton.org/the-architecture-behind-the-open-network&#34;&gt;The Open Network Architecture&lt;/a&gt; - an overview of the TON network architecture and ideas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/&#34;&gt;How to build your own blockchain&lt;/a&gt; - a step-by-step guide for building a simple blockchain. Look into &lt;a href=&#34;https://github.com/sild/educhain&#34;&gt;my repo&lt;/a&gt; to see what happened!&lt;/li&gt;
+&lt;/ul&gt;</description>
+            <content type="html"><![CDATA[<p>Such a thing happened and I started a new job in the crypto domain knowing nothing about it.</p>
+<p>Here are a few links which make me more aware of what&rsquo;s happening:</p>
+<ul>
+<li><a href="https://www.coinbase.com/en-gb/learn/crypto-basics/what-is-a-dex">DEX</a> - what is it and what are its advantages compared to centralized exchanges</li>
+<li><a href="https://blog.ton.org/the-architecture-behind-the-open-network">The Open Network Architecture</a> - an overview of the TON network architecture and ideas</li>
+<li><a href="https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/">How to build your own blockchain</a> - a step-by-step guide for building a simple blockchain. Look into <a href="https://github.com/sild/educhain">my repo</a> to see what happened!</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
             <title>How to build such blog</title>
             <link>https://sild.github.io/posts/how_to_build_it/</link>
             <pubDate>Wed, 06 Dec 2023 19:32:50 +0100</pubDate>
