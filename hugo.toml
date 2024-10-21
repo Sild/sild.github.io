@@ -1,0 +1,48 @@
+baseURL = 'https://sild.github.io/'
+languageCode = 'en-us'
+title = "Sild's blog"
+theme = 'hugo-theme-hello-friend-ng'
+paginate = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "Job and Education"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Show a global language switcher in the navigation bar
+  #enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "Job and Education"
+  keywords = "blog,sild"
+  images = [""]
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+
+[languages]
+  [languages.en]
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.en.params.logo]
+    logoText = "Hi"
+    logoHomeLink = "/"
+
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts"
+
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  url        = "/tags"
