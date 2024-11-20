@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 18 Sep 2024 21:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 20:20:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load testing indexers before trusting capacity</title>
+      <link>https://sild.github.io/it/load_testing_indexers/</link>
+      <pubDate>Wed, 20 Nov 2024 20:20:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/load_testing_indexers/</guid>
+      <description>&lt;p&gt;Load testing an indexer is different from load testing a request-response API.&#xA;There is still throughput, but the more important questions are about&#xA;lag, recovery, write amplification, and how the system behaves after a pause.&lt;/p&gt;&#xA;&lt;p&gt;The baseline scenario is simple:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;start from an empty or known snapshot;&lt;/li&gt;&#xA;&lt;li&gt;feed historical data faster than real time;&lt;/li&gt;&#xA;&lt;li&gt;measure processing lag and database writes;&lt;/li&gt;&#xA;&lt;li&gt;introduce a short dependency outage;&lt;/li&gt;&#xA;&lt;li&gt;verify that the service catches up without manual cleanup.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This reveals problems that a happy-path benchmark hides. A service may process&#xA;normal traffic comfortably but fall behind after one slow compaction. It may&#xA;recover from a dependency outage only by retrying so aggressively that it hurts&#xA;the dependency again.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Schema boundaries when the source is external</title>
       <link>https://sild.github.io/it/external_schema_boundaries/</link>
