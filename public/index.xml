@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 20 Nov 2024 20:20:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 22:15:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backups and restore thinking for large indexer data</title>
+      <link>https://sild.github.io/it/indexer_backups_restore/</link>
+      <pubDate>Thu, 12 Dec 2024 22:15:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/indexer_backups_restore/</guid>
+      <description>&lt;p&gt;For an indexer, backup strategy is not only about saving bytes. The real question&#xA;is how long it takes to trust the service again after something goes wrong.&lt;/p&gt;&#xA;&lt;p&gt;There are two main recovery paths. The first is replaying from the source of&#xA;truth. It is conceptually clean, but it can be too slow when the historical data&#xA;is large. The second is restoring a snapshot. It is faster, but only if the&#xA;snapshot format, metadata, and validation process are deterministic enough to run&#xA;under pressure.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Load testing indexers before trusting capacity</title>
       <link>https://sild.github.io/it/load_testing_indexers/</link>
