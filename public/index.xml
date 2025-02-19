@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 12 Dec 2024 22:15:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 20:30:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring an indexer beyond &#34;is it alive&#34;</title>
+      <link>https://sild.github.io/it/indexer_monitoring/</link>
+      <pubDate>Wed, 19 Feb 2025 20:30:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/indexer_monitoring/</guid>
+      <description>&lt;p&gt;A process can be alive and still useless. That is especially true for an indexer:&#xA;the binary may run, the database may accept connections, and the HTTP endpoint&#xA;may return 200 while the indexed state is hours behind.&lt;/p&gt;&#xA;&lt;p&gt;The first metric is progress. For blockchain data this means the latest&#xA;observed height, the latest processed height, and the difference between them.&#xA;Lag is more useful than uptime because it describes the user-visible problem&#xA;directly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Backups and restore thinking for large indexer data</title>
       <link>https://sild.github.io/it/indexer_backups_restore/</link>
