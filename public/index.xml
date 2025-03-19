@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 19 Feb 2025 20:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 21:05:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Runtime experiments without waiting for releases</title>
+      <link>https://sild.github.io/it/runtime_experiments_without_releases/</link>
+      <pubDate>Wed, 19 Mar 2025 21:05:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/runtime_experiments_without_releases/</guid>
+      <description>&lt;p&gt;In a high-load ranking or bidding system, release speed affects product speed.&#xA;If every model estimate or scoring change waits for a full release cycle, small&#xA;experiments become expensive and teams test fewer ideas.&lt;/p&gt;&#xA;&lt;p&gt;The useful pattern is a controlled runtime switch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the service has a stable interface for receiving prepared data;&lt;/li&gt;&#xA;&lt;li&gt;each experiment has a version and owner;&lt;/li&gt;&#xA;&lt;li&gt;fallback behavior is explicit;&lt;/li&gt;&#xA;&lt;li&gt;metrics separate experiment traffic from normal traffic;&lt;/li&gt;&#xA;&lt;li&gt;rollback is a configuration change, not a rebuild.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is not the same as making everything dynamic. The hot path should still be&#xA;predictable, and the service should not accept arbitrary logic from outside.&#xA;Usually the safe boundary is data, weights, thresholds, or precomputed estimates,&#xA;not executable behavior.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Monitoring an indexer beyond &#34;is it alive&#34;</title>
       <link>https://sild.github.io/it/indexer_monitoring/</link>
