@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 19 Mar 2025 21:05:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 20:10:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Owning infrastructure libraries without slowing teams</title>
+      <link>https://sild.github.io/it/infrastructure_library_ownership/</link>
+      <pubDate>Wed, 21 May 2025 20:10:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/infrastructure_library_ownership/</guid>
+      <description>&lt;p&gt;Infrastructure libraries sit in an uncomfortable place. If they move too slowly,&#xA;product teams copy code or build around missing features. If they move too&#xA;quickly, every downstream service inherits churn.&lt;/p&gt;&#xA;&lt;p&gt;The ownership model should be explicit but lightweight:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;write down which guarantees the library provides;&lt;/li&gt;&#xA;&lt;li&gt;keep examples close to the public API;&lt;/li&gt;&#xA;&lt;li&gt;version behavior changes, not only function signatures;&lt;/li&gt;&#xA;&lt;li&gt;make migration steps mechanical;&lt;/li&gt;&#xA;&lt;li&gt;collect feedback from real service integrations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The hardest part is saying no to convenience helpers that hide important&#xA;decisions. A shared library should remove repeated mechanical work, not make&#xA;ownership boundaries unclear. If a caller needs to choose retry behavior,&#xA;timeouts, or data-loss policy, the API should make that choice visible.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Runtime experiments without waiting for releases</title>
       <link>https://sild.github.io/it/runtime_experiments_without_releases/</link>
