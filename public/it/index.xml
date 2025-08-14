@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 21 May 2025 20:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 20:05:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Declarative handling of TON objects in Rust</title>
+      <link>https://sild.github.io/it/declarative_ton_objects/</link>
+      <pubDate>Thu, 14 Aug 2025 20:05:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/declarative_ton_objects/</guid>
+      <description>&lt;p&gt;Code that handles blockchain objects can become a long list of special cases.&#xA;One field is optional only in this version. One object has a different nesting&#xA;shape. One parser needs extra context. If every case is handwritten, the system&#xA;becomes hard to audit.&lt;/p&gt;&#xA;&lt;p&gt;The declarative approach describes the object shape once and derives the&#xA;mechanical parts from that description. The goal is not magic. The goal is to&#xA;keep repetitive parsing, validation, and conversion logic consistent.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Owning infrastructure libraries without slowing teams</title>
       <link>https://sild.github.io/it/infrastructure_library_ownership/</link>
