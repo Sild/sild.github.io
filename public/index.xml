@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 14 Aug 2025 20:05:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 22:00:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loading large search/index data without wasting warm state</title>
+      <link>https://sild.github.io/it/loading_large_index_data/</link>
+      <pubDate>Thu, 09 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/loading_large_index_data/</guid>
+      <description>&lt;p&gt;Large search services often spend a surprising amount of time doing the same&#xA;startup work independently on many hosts. Each process reads similar data, warms&#xA;similar structures, and only then becomes useful. That is simple, but it can make&#xA;deployments and recovery much slower than necessary.&lt;/p&gt;&#xA;&lt;p&gt;One useful pattern is treating already-warmed servers as data sources for the&#xA;next wave. The details depend on the system, but the idea is straightforward: if&#xA;one instance has built a verified in-memory or local on-disk representation,&#xA;another instance may be able to reuse that representation instead of rebuilding&#xA;everything from the original source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Declarative handling of TON objects in Rust</title>
       <link>https://sild.github.io/it/declarative_ton_objects/</link>

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sild.github.io/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/it/loading_large_index_data/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/tags/ops/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/tags/search/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://sild.github.io/tags/</loc>
+    <lastmod>2025-10-09T22:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://sild.github.io/tags/crypto/</loc>
     <lastmod>2025-08-14T20:05:00+02:00</lastmod>
   </url><url>
@@ -9,15 +27,6 @@
     <lastmod>2025-08-14T20:05:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/tags/dev/</loc>
-    <lastmod>2025-08-14T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/</loc>
-    <lastmod>2025-08-14T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/it/</loc>
-    <lastmod>2025-08-14T20:05:00+02:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/tags/</loc>
     <lastmod>2025-08-14T20:05:00+02:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/tags/leadership/</loc>
@@ -29,13 +38,7 @@
     <loc>https://sild.github.io/it/runtime_experiments_without_releases/</loc>
     <lastmod>2025-03-19T21:05:00+01:00</lastmod>
   </url><url>
-    <loc>https://sild.github.io/tags/search/</loc>
-    <lastmod>2025-03-19T21:05:00+01:00</lastmod>
-  </url><url>
     <loc>https://sild.github.io/it/indexer_monitoring/</loc>
-    <lastmod>2025-02-19T20:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://sild.github.io/tags/ops/</loc>
     <lastmod>2025-02-19T20:30:00+01:00</lastmod>
   </url><url>
     <loc>https://sild.github.io/it/indexer_backups_restore/</loc>
