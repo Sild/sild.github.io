@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 14 Aug 2025 20:05:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 19:20:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Releasing ton-rs as a cleaner Rust interface for TON</title>
+      <link>https://sild.github.io/it/ton_rs_release_new_rust_interface/</link>
+      <pubDate>Mon, 27 Oct 2025 19:20:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/ton_rs_release_new_rust_interface/</guid>
+      <description>&lt;p&gt;The new &lt;a href=&#34;https://github.com/ston-fi/ton-rs&#34;&gt;&lt;code&gt;ston-fi/ton-rs&lt;/code&gt;&lt;/a&gt; release moved the&#xA;Rust TON interface to a cleaner crate split: &lt;code&gt;ton_core&lt;/code&gt; for cells, addresses,&#xA;and TLB primitives, and &lt;code&gt;ton&lt;/code&gt; for higher-level blockchain, wallet, contract, and&#xA;client functionality. The old &lt;code&gt;tonlib-core&lt;/code&gt; and &lt;code&gt;tonlib-client&lt;/code&gt; line stays useful&#xA;for maintenance fixes, but the new API is the path for new code.&lt;/p&gt;&#xA;&lt;p&gt;The developer-facing announcement was simple: the Rust library for TON&#xA;interaction finally shipped through the new crate line, compatibility with the&#xA;old &lt;code&gt;tonlib-*&lt;/code&gt; APIs was not a goal, and feature requests should go to GitHub&#xA;issues instead of disappearing in chat. That is a good release shape: clear&#xA;migration direction, explicit maintenance policy, and one public place for&#xA;feedback.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Declarative handling of TON objects in Rust</title>
       <link>https://sild.github.io/it/declarative_ton_objects/</link>
