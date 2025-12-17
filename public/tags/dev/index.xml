@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 27 Oct 2025 19:20:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 20:45:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avoiding duplicate work in hot search paths</title>
+      <link>https://sild.github.io/it/duplicate_work_in_hot_paths/</link>
+      <pubDate>Wed, 17 Dec 2025 20:45:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/duplicate_work_in_hot_paths/</guid>
+      <description>&lt;p&gt;Performance work in a hot path often starts with larger ideas: new data&#xA;structures, better algorithms, lower-level tricks. Sometimes those are needed.&#xA;Often the first measurable win is simpler: stop doing the same work twice.&lt;/p&gt;&#xA;&lt;p&gt;Duplicate work hides in places that look harmless:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;normalizing the same request fields in several layers;&lt;/li&gt;&#xA;&lt;li&gt;checking the same eligibility rules for every candidate;&lt;/li&gt;&#xA;&lt;li&gt;converting between internal formats repeatedly;&lt;/li&gt;&#xA;&lt;li&gt;recalculating values that are stable for the whole request;&lt;/li&gt;&#xA;&lt;li&gt;loading metadata that could be batched or cached for one pass.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The safest way to find it is tracing one request through the code and writing&#xA;down where data changes shape. Every conversion should have a reason. Every loop&#xA;over candidates should answer whether the condition depends on the candidate or&#xA;only on the request.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Releasing ton-rs as a cleaner Rust interface for TON</title>
       <link>https://sild.github.io/it/ton_rs_release_new_rust_interface/</link>
