@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 09 Oct 2025 22:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 19:40:00 +0100</lastBuildDate>
     <atom:link href="https://sild.github.io/tags/ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Small operational bots as leverage</title>
+      <link>https://sild.github.io/it/operational_bots_as_leverage/</link>
+      <pubDate>Thu, 12 Feb 2026 19:40:00 +0100</pubDate>
+      <guid>https://sild.github.io/it/operational_bots_as_leverage/</guid>
+      <description>&lt;p&gt;Some useful automation is too small to become a platform and too repetitive to&#xA;leave manual. That is the space where small operational bots work well.&lt;/p&gt;&#xA;&lt;p&gt;The best bot commands are not clever. They collect context that humans already&#xA;know how to interpret but should not gather by hand every day. A status&#xA;report, a permission check, a deployment summary, or a quick lookup can remove a&#xA;lot of routine switching.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Loading large search/index data without wasting warm state</title>
       <link>https://sild.github.io/it/loading_large_index_data/</link>
