@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 12 Feb 2026 19:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 20:20:00 +0200</lastBuildDate>
     <atom:link href="https://sild.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team lead notes for keeping systems understandable</title>
+      <link>https://sild.github.io/it/team_lead_systems_understandable/</link>
+      <pubDate>Wed, 15 Apr 2026 20:20:00 +0200</pubDate>
+      <guid>https://sild.github.io/it/team_lead_systems_understandable/</guid>
+      <description>&lt;p&gt;The technical part of team leadership is not only reviewing code or choosing an&#xA;architecture. A lot of it is keeping the system understandable enough that other&#xA;people can make good changes without waiting for one person.&lt;/p&gt;&#xA;&lt;p&gt;Three habits keep technical leadership grounded in the codebase.&lt;/p&gt;&#xA;&lt;p&gt;First, write down ownership boundaries. Not every module needs a long document,&#xA;but every important subsystem should have a clear sentence about what it owns and&#xA;what it does not own. This prevents &amp;ldquo;small&amp;rdquo; changes from spreading through the&#xA;wrong layer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Small operational bots as leverage</title>
       <link>https://sild.github.io/it/operational_bots_as_leverage/</link>
