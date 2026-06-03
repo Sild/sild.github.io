@@ -3,7 +3,7 @@
 set -e
 
 printf "\033[0;32mDeploying to Github!..\033[0m\n"
-hugo
+hugo --cleanDestinationDir
 git add .
-git commit -am "up content"
+git commit -m "site: update content"
 git push

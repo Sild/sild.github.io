@@ -65,7 +65,7 @@
 
   </head>
 
-    <body class="">
+  <body class="">
 
     <div class="container">
       <header class="header">
@@ -95,17 +95,79 @@
 </header>
 
       <div class="content">
+        <main class="site-home">
+    <section class="home-hero">
+      <p class="home-kicker">Backend systems engineer</p>
+      <h1>Dmitrii Korchagin</h1>
+      <p class="home-lead">
+        High-load Linux services and infrastructure in Rust and C++: search
+        engines, ad-tech auctions, internal developer platforms, and TON
+        blockchain indexers.
+      </p>
+      <div class="profile-links" aria-label="Public profile links">
+        <a href="https://www.linkedin.com/in/sild/" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Sild/" rel="noopener" target="_blank">GitHub</a>
+        <a href="mailto:silddev@pm.me">silddev@pm.me</a>
+      </div>
+    </section>
 
-    <main>
-        <div>
+    <section class="home-entry-grid" aria-label="Main sections">
+      <a class="home-entry-card" href="/me/">
+        <span class="home-entry-card__label">Me</span>
+        <strong>CV and pet projects</strong>
+        <span>Experience, public profile, and selected GitHub projects.</span>
+      </a>
+      <a class="home-entry-card" href="/it/">
+        <span class="home-entry-card__label">IT</span>
+        <strong>Engineering notes</strong>
+        <span>Short notes grouped as dev, ops, crypto, search, and leadership.</span>
+      </a>
+    </section>
 
-
-            <h1>Dmitrii Korchagin</h1>
-
-
-    <p>Backend engineer focused on search systems, reliability, and blockchain infrastructure.</p>
-        </div>
-    </main>
+    <section class="metric-strip" aria-label="Engineering highlights">
+      <div>
+        <strong>12+ years</strong>
+        <span>backend and infrastructure</span>
+      </div>
+      <div>
+        <strong>700k QPS</strong>
+        <span>search and bidding systems</span>
+      </div>
+      <div>
+        <strong>50+ TB</strong>
+        <span>managed indexer data</span>
+      </div>
+      <div>
+        <strong>10m -> 2m</strong>
+        <span>CI cycle reduction</span>
+      </div>
+    </section>
+      <section class="home-latest" aria-label="Latest IT notes">
+        <h2>Latest IT notes</h2>
+        <ul>
+            <li>
+              <a href="/it/team_lead_systems_understandable/">Team lead notes for keeping systems understandable</a>
+              <time datetime="2026-04-15">Apr 15, 2026</time>
+            </li>
+            <li>
+              <a href="/it/operational_bots_as_leverage/">Small operational bots as leverage</a>
+              <time datetime="2026-02-12">Feb 12, 2026</time>
+            </li>
+            <li>
+              <a href="/it/duplicate_work_in_hot_paths/">Avoiding duplicate work in hot search paths</a>
+              <time datetime="2025-12-17">Dec 17, 2025</time>
+            </li>
+            <li>
+              <a href="/it/ton_rs_release_new_rust_interface/">Releasing ton-rs as a cleaner Rust interface for TON</a>
+              <time datetime="2025-10-27">Oct 27, 2025</time>
+            </li>
+            <li>
+              <a href="/it/loading_large_index_data/">Loading large search/index data without wasting warm state</a>
+              <time datetime="2025-10-09">Oct 9, 2025</time>
+            </li>
+        </ul>
+      </section>
+  </main>
 
       </div>
       <footer class="footer">

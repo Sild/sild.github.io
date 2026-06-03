@@ -1,0 +1,69 @@
+{{ define "body" }}
+  <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+  {{- $it := where .Site.RegularPages "Section" "it" -}}
+  <main class="site-home">
+    <section class="home-hero">
+      <p class="home-kicker">Backend systems engineer</p>
+      <h1>Dmitrii Korchagin</h1>
+      <p class="home-lead">
+        High-load Linux services and infrastructure in Rust and C++: search
+        engines, ad-tech auctions, internal developer platforms, and TON
+        blockchain indexers.
+      </p>
+      <div class="profile-links" aria-label="Public profile links">
+        <a href="https://www.linkedin.com/in/sild/" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Sild/" rel="noopener" target="_blank">GitHub</a>
+        <a href="mailto:silddev@pm.me">silddev@pm.me</a>
+      </div>
+    </section>
+
+    <section class="home-entry-grid" aria-label="Main sections">
+      <a class="home-entry-card" href="/me/">
+        <span class="home-entry-card__label">Me</span>
+        <strong>CV and pet projects</strong>
+        <span>Experience, public profile, and selected GitHub projects.</span>
+      </a>
+      <a class="home-entry-card" href="/it/">
+        <span class="home-entry-card__label">IT</span>
+        <strong>Engineering notes</strong>
+        <span>Short notes grouped as dev, ops, crypto, search, and leadership.</span>
+      </a>
+    </section>
+
+    <section class="metric-strip" aria-label="Engineering highlights">
+      <div>
+        <strong>12+ years</strong>
+        <span>backend and infrastructure</span>
+      </div>
+      <div>
+        <strong>700k QPS</strong>
+        <span>search and bidding systems</span>
+      </div>
+      <div>
+        <strong>50+ TB</strong>
+        <span>managed indexer data</span>
+      </div>
+      <div>
+        <strong>10m -> 2m</strong>
+        <span>CI cycle reduction</span>
+      </div>
+    </section>
+
+    {{- with first 5 $it }}
+      <section class="home-latest" aria-label="Latest IT notes">
+        <h2>Latest IT notes</h2>
+        <ul>
+          {{- range . }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </li>
+          {{- end }}
+        </ul>
+      </section>
+    {{- end }}
+  </main>
+{{ end }}
