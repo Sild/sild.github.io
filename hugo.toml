@@ -26,6 +26,11 @@ pagination.pageSize = 10
   keywords = "blog,sild,backend,dev,ops,crypto,search,leadership"
   images = [""]
   customCSS = ["/css/site.css"]
+  plausibleDataDomain = "sild.github.io"
+  plausibleScriptSource = "https://plausible.io/js/script.js"
+
+  [params.footer]
+    topText = ['<a href="https://plausible.io/sild.github.io" target="_blank" rel="noopener">Stats</a>']
 
 [taxonomies]
     category = "categories"
