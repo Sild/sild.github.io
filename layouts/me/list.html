@@ -1,0 +1,76 @@
+{{ define "main" }}
+  <main class="profile-page">
+    <header class="profile-header">
+      <p class="home-kicker">Me</p>
+      <h1>Dmitrii Korchagin</h1>
+      <p>
+        Software engineer and team lead with 12+ years building Linux backend
+        systems: search engines, high-load ad platforms, GitLab/SRE tooling,
+        and TON blockchain infrastructure.
+      </p>
+      <div class="skill-cloud" aria-label="Main technical focus">
+        <span>Rust</span>
+        <span>C++</span>
+        <span>Linux</span>
+        <span>Search</span>
+        <span>High-load</span>
+        <span>SRE</span>
+        <span>TON</span>
+        <span>Monitoring</span>
+      </div>
+      <div class="profile-links" aria-label="Public profile links">
+        <a href="https://www.linkedin.com/in/sild/" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Sild/" rel="noopener" target="_blank">GitHub</a>
+        <a href="mailto:silddev@pm.me">silddev@pm.me</a>
+      </div>
+    </header>
+
+    <section class="tabs" aria-label="Me sections">
+      <input id="tab-cv" name="profile-tab" type="radio" checked>
+      <input id="tab-projects" name="profile-tab" type="radio">
+
+      <div class="tab-list" role="tablist">
+        <label for="tab-cv" role="tab">CV</label>
+        <label for="tab-projects" role="tab">Pet-projects</label>
+      </div>
+
+      <div class="tab-panel tab-panel--cv" role="tabpanel" aria-labelledby="tab-cv">
+        <section class="profile-section">
+          <h2>Summary</h2>
+          <p>
+            Backend engineer based in the Netherlands. Main languages are Rust
+            and C++, with Linux as the production environment. Recent work covers
+            low-latency search, large indexers, observability, CI, and operational
+            recovery for data-heavy services.
+          </p>
+        </section>
+
+        <section class="profile-section">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article>
+              <h3>Earlier work</h3>
+              <p class="timeline-meta">2012 - 2022 · Linux, C++, Bash, Docker, Jenkins, web</p>
+              <p>
+                Search systems, CI/CD automation, packaging, test infrastructure,
+                API client support, and web development.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="profile-section">
+          <h2>Education and languages</h2>
+          <p>
+            St. Petersburg State University, Faculty of Applied Mathematics -
+            Control Processes. English Upper-Intermediate, Russian Native.
+          </p>
+        </section>
+      </div>
+
+      <div class="tab-panel tab-panel--projects" role="tabpanel" aria-labelledby="tab-projects">
+        <section class="project-grid"></section>
+      </div>
+    </section>
+  </main>
+{{ end }}
